@@ -1,4 +1,4 @@
-26634610375616589
+26641664092295659
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106252,3 +106252,31 @@ Varistor VF
 0
 2
 2
+handheld
+JOYSTICK
+
+
+0
+14
+14
+handheld
+RES-ADJ-TH_3P-L6.6-W7.0-P2.54-L_3362P
+
+
+0
+3
+3
+handheld
+SW_SLW-1678105-6A-N-D
+
+
+0
+6
+6
+handheld
+USB-SMD_USB-TYPE-C-020
+
+
+0
+20
+20
