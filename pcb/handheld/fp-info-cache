@@ -1,4 +1,4 @@
-26641664092295659
+26645193384588249
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106253,6 +106253,13 @@ Varistor VF
 2
 2
 handheld
+Header_1x07_P2.54mm_Pads
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+7
+7
+handheld
 JOYSTICK
 
 
@@ -106272,7 +106279,14 @@ SW_SLW-1678105-6A-N-D
 
 0
 6
-6
+3
+handheld
+Testpoint
+
+
+0
+1
+1
 handheld
 USB-SMD_USB-TYPE-C-020
 
