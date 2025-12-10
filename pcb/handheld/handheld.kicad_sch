@@ -5,6 +5,376 @@
 	(uuid "16e05bac-8993-4866-b00a-f9cee69cf9c6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "B3F-3152_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW11"
+				(at 20.32 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "B3F-3152"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SW_B3F-3150_OMR"
+				(at 1.778 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "B3F-3152"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "B3F-3152"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW_B3F-3150_OMR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B3F-3152_1_0_1"
+				(polyline
+					(pts
+						(xy 15.24 5.08) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 25.4 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 22.86 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.5875) (xy 21.59 1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.5875) (xy 19.05 1.27) (xy 21.59 1.27) (xy 21.59 1.5875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.27) (xy 19.05 1.5875)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.27) (xy 21.59 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 2.54) (xy 20.32 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 1.5875) (xy 21.59 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.0663 3.4925) (xy 22.225 4.1275)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.225 0.635) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.3838 3.4925) (xy 22.5425 4.1275)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.7013 3.4925) (xy 22.86 4.1275)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 4.1275) (xy 21.9075 4.1275)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 3.81) (xy 22.86 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 2.54) (xy 24.13 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 5.08) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -2.54) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 2.54 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4611,7 +4981,7 @@
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
-		(at 232.156 25.654 0)
+		(at 231.902 18.796 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,12 +5008,6 @@
 		(uuid "0a2a6299-f94c-4a45-acf3-5833925afab9")
 	)
 	(junction
-		(at 255.27 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c6b7390-db70-4605-b55a-ec77bdb67cce")
-	)
-	(junction
 		(at 148.59 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4654,6 +5018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11b578ea-12f7-4f6f-b5a2-769323ce5e5e")
+	)
+	(junction
+		(at 252.73 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17d8b89a-69ce-486e-92a0-43c1e251a35b")
 	)
 	(junction
 		(at 73.66 67.31)
@@ -4684,6 +5054,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ec2e962-0422-473a-bb27-27a4ce75d9b1")
+	)
+	(junction
+		(at 275.59 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5008207e-3089-4471-8a73-dffb8fd6787f")
 	)
 	(junction
 		(at 78.74 46.99)
@@ -4746,10 +5122,10 @@
 		(uuid "86893ec9-f06e-4926-9c10-6ac9021aa9d6")
 	)
 	(junction
-		(at 255.27 53.34)
+		(at 275.59 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96f3d2dd-0bdc-44ad-8490-b642938f7c8c")
+		(uuid "988d5c09-6f4d-4849-8869-bb45a3f65c24")
 	)
 	(junction
 		(at 55.88 67.31)
@@ -4792,6 +5168,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c120211f-2a73-4601-8179-c798559e5e35")
+	)
+	(junction
+		(at 252.73 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2afd920-0fe0-48b3-a45b-cf5a94cb43ed")
 	)
 	(junction
 		(at 255.27 106.68)
@@ -5083,7 +5465,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 54.61) (xy 255.27 53.34)
+			(xy 252.73 54.61) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5153,7 +5535,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 36.83) (xy 255.27 35.56)
+			(xy 252.73 33.02) (xy 252.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5210,6 +5592,16 @@
 			(type default)
 		)
 		(uuid "39594dd4-f67c-4675-a86d-712e9dbc67f6")
+	)
+	(wire
+		(pts
+			(xy 275.59 24.13) (xy 279.4 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a97d4f-0f46-409c-b004-9556f9e85260")
 	)
 	(wire
 		(pts
@@ -5353,13 +5745,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 53.34) (xy 269.24 53.34)
+			(xy 275.59 45.72) (xy 255.27 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dcc4de9-4727-453c-8d0d-d52d8a35e92b")
+		(uuid "50e36a3b-acba-4c44-b223-5e8fa38b1941")
 	)
 	(wire
 		(pts
@@ -5380,6 +5772,16 @@
 			(type default)
 		)
 		(uuid "51edb2f7-fd56-46cd-9afa-ae67ab50893c")
+	)
+	(wire
+		(pts
+			(xy 275.59 45.72) (xy 279.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52309aa6-8178-4e3c-8bd8-2d758bc36642")
 	)
 	(wire
 		(pts
@@ -5583,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 31.75) (xy 255.27 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76afd63a-362a-4448-878b-13593be688ed")
+	)
+	(wire
+		(pts
 			(xy 152.4 177.8) (xy 152.4 179.07)
 		)
 		(stroke
@@ -5633,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 255.27 53.34)
+			(xy 251.46 53.34) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5703,16 +6115,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 35.56) (xy 269.24 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917d6700-9eb9-4ecc-8537-e3d7e8c7145d")
-	)
-	(wire
-		(pts
 			(xy 193.04 124.46) (xy 196.85 124.46)
 		)
 		(stroke
@@ -5730,16 +6132,6 @@
 			(type default)
 		)
 		(uuid "93a850ce-c2d1-4262-a3a8-da3946f0fd90")
-	)
-	(wire
-		(pts
-			(xy 255.27 35.56) (xy 259.08 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "944ac1c6-191a-46dc-990a-bffda47c9fcf")
 	)
 	(wire
 		(pts
@@ -5793,6 +6185,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 45.72) (xy 255.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e659b8b-bb24-4c2e-a8cb-c387cd42b952")
+	)
+	(wire
+		(pts
 			(xy 153.67 31.75) (xy 148.59 31.75)
 		)
 		(stroke
@@ -5800,6 +6202,16 @@
 			(type default)
 		)
 		(uuid "9f1abf96-de21-4a80-9490-7daa23aca4ac")
+	)
+	(wire
+		(pts
+			(xy 255.27 24.13) (xy 255.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10fce8d-112a-405f-9b4e-0ce84f0e7303")
 	)
 	(wire
 		(pts
@@ -5823,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 255.27 35.56)
+			(xy 251.46 31.75) (xy 252.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5950,6 +6362,16 @@
 			(type default)
 		)
 		(uuid "b4c2e125-0015-4b94-944a-7360b5e7d08a")
+	)
+	(wire
+		(pts
+			(xy 252.73 53.34) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53c8642-76ed-4e9e-802d-44679b31aa9b")
 	)
 	(wire
 		(pts
@@ -6093,7 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 35.56) (xy 243.84 35.56)
+			(xy 241.3 31.75) (xy 243.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6180,6 +6602,16 @@
 			(type default)
 		)
 		(uuid "d831a46e-480d-43ee-95ad-1653e53a31d4")
+	)
+	(wire
+		(pts
+			(xy 275.59 24.13) (xy 255.27 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da705204-f1af-48fe-95d3-03a9306d71da")
 	)
 	(wire
 		(pts
@@ -6293,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 29.21) (xy 275.59 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3521391-f438-4c77-b9b8-aeeab6366d8a")
+	)
+	(wire
+		(pts
 			(xy 25.4 67.31) (xy 33.02 67.31)
 		)
 		(stroke
@@ -6323,13 +6765,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 53.34) (xy 259.08 53.34)
+			(xy 275.59 50.8) (xy 275.59 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa0602f4-7f37-49e4-a068-c5332fd1fc2e")
+		(uuid "f92cf037-0ad4-4210-b4d2-85fcbe39894a")
 	)
 	(wire
 		(pts
@@ -6435,6 +6877,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 275.59 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "071d2543-560e-49c8-97b4-45e8d24363c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.2038 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6639,7 +7103,7 @@
 	)
 	(global_label "Button R"
 		(shape input)
-		(at 241.3 35.56 180)
+		(at 241.3 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6649,7 +7113,7 @@
 		)
 		(uuid "2a864e51-7fc0-4a28-9d6b-91964ea443d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.4162 35.56 0)
+			(at 233.4162 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +7147,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 271.78 35.56 0)
+		(at 275.59 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6693,7 +7157,7 @@
 		)
 		(uuid "36a82954-5d32-4649-b3ab-a83100f8409d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.3938 35.56 0)
+			(at 282.2038 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,28 +7207,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 271.78 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cc5ad99-d325-4fec-81ff-8ec8e379ec7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.3938 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8180,7 +8622,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 227.33 22.86) (xy 227.33 160.02) (xy 280.67 160.02) (xy 280.67 22.86)
+				(xy 227.33 16.51) (xy 227.33 160.02) (xy 283.21 160.02) (xy 283.21 16.51)
 			)
 			(stroke
 				(width 0)
@@ -8534,7 +8976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -9084,7 +9526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 264.16 137.16 0)
 			(effects
 				(font
@@ -9422,7 +9864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "handheld:RES-ADJ-TH_3P-L6.6-W7.0-P2.54-L_3362P"
+		(property "Footprint" "handheld:PTV09A-4015F-B104_BRN"
 			(at 44.45 114.3 0)
 			(effects
 				(font
@@ -9468,8 +9910,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 279.4 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23472e94-4cb3-45c9-9632-1ea038e645bc")
+		(property "Reference" "#PWR023"
+			(at 279.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7708f5b-5a7c-4c7d-856b-d59bb236d610")
+		)
+		(instances
+			(project "handheld"
+				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 255.27 40.64 0)
+		(at 252.73 36.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9479,7 +9987,7 @@
 		(fields_autoplaced yes)
 		(uuid "2773e6a3-5045-463f-be98-c6115e227ed8")
 		(property "Reference" "R20"
-			(at 257.81 39.3699 0)
+			(at 255.27 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9996,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 41.9099 0)
+			(at 255.27 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +10005,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.048 40.64 90)
+			(at 254.508 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,7 +10014,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 40.64 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +10023,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 40.64 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +10389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 58.42 0)
+		(at 252.73 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9891,7 +10399,7 @@
 		(fields_autoplaced yes)
 		(uuid "31449cc1-8fd4-401f-b594-4c0e9a847918")
 		(property "Reference" "R18"
-			(at 257.81 57.1499 0)
+			(at 255.27 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +10408,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 59.6899 0)
+			(at 255.27 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +10417,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.048 58.42 90)
+			(at 254.508 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 58.42 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +10435,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 58.42 0)
+			(at 252.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 119.38 26.67 0)
 			(effects
 				(font
@@ -10955,7 +11463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 264.16 119.38 0)
 			(effects
 				(font
@@ -11228,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 264.16 83.82 0)
 			(effects
 				(font
@@ -11361,7 +11869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Joystick Mount"
 			(at 208.28 52.07 0)
 			(effects
 				(font
@@ -11459,7 +11967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "handheld:CONN_S2B-PH-K-S_JST"
 			(at 60.96 105.41 0)
 			(effects
 				(font
@@ -11781,6 +12289,83 @@
 		)
 	)
 	(symbol
+		(lib_name "B3F-3152_1")
+		(lib_id "handheld_symbols:B3F-3152")
+		(at 245.11 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8471d374-2280-4e14-9efc-1a7b51168713")
+		(property "Reference" "SW10"
+			(at 265.43 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 265.43 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "handheld:SW_B3F-3150_OMR"
+			(at 246.888 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B3F-3152"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f37f480d-be0a-4832-a703-4aa37064cf37")
+		)
+		(pin "3"
+			(uuid "07e953d3-1266-4ffc-9cd0-78e90b60dc84")
+		)
+		(pin "4"
+			(uuid "2625e5b9-1150-4720-867d-7c110706a9dc")
+		)
+		(pin "1"
+			(uuid "b8a50f90-4780-454d-9c0d-640dfbf77bbc")
+		)
+		(instances
+			(project ""
+				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 86.36 0)
 		(unit 1)
@@ -11841,73 +12426,6 @@
 			(project "handheld"
 				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a088665-a038-4530-9225-0b66c0761681")
-		(property "Reference" "SW9"
-			(at 264.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5d1f14-4c68-4134-bc5e-d55cd15b202c")
-		)
-		(pin "2"
-			(uuid "06d15b22-19a0-407a-968a-70f12dd805c9")
-		)
-		(instances
-			(project "handheld"
-				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
-					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -12220,7 +12738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "handheld:Header_1x07_P2.54mm_Pads"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 212.09 100.33 0)
 			(effects
 				(font
@@ -12505,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 264.16 101.6 0)
 			(effects
 				(font
@@ -12642,7 +13160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "handheld:SW_B3F-1050_OMR"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -12748,73 +13266,6 @@
 			(project "handheld"
 				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adadb9dc-6076-48f2-bfd1-facca3afa7ae")
-		(property "Reference" "SW10"
-			(at 264.16 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 264.16 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e610d659-296e-4087-bbe7-2f4de7ab2ef0")
-		)
-		(pin "2"
-			(uuid "3d358e32-f8be-4e0b-a9cb-f5240e549b28")
-		)
-		(instances
-			(project "handheld"
-				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
-					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -13345,7 +13796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 62.23 0)
+		(at 252.73 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13354,7 +13805,7 @@
 		(fields_autoplaced yes)
 		(uuid "c120e465-e993-4d82-bfb1-90ba0e6f6480")
 		(property "Reference" "#PWR019"
-			(at 255.27 68.58 0)
+			(at 252.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +13814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 67.31 0)
+			(at 252.73 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 62.23 0)
+			(at 252.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13380,7 +13831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 62.23 0)
+			(at 252.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 62.23 0)
+			(at 252.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +14026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "handheld:CONN_S2B-PH-K-S_JST"
 			(at 24.13 168.91 0)
 			(effects
 				(font
@@ -13896,6 +14347,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 279.4 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df817875-7184-44ec-94d0-01d6c357ecc3")
+		(property "Reference" "#PWR022"
+			(at 279.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e358016-dc56-46d2-9dd5-03a53f807246")
+		)
+		(instances
+			(project "handheld"
+				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 255.27 93.98 0)
 		(mirror y)
@@ -14100,16 +14617,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 44.45 0)
+		(at 252.73 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1cee37c-c4e2-40ef-9344-8e135ea974f7")
 		(property "Reference" "#PWR020"
-			(at 255.27 50.8 0)
+			(at 252.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14118,7 +14634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 49.53 0)
+			(at 252.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +14642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 44.45 0)
+			(at 252.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14135,7 +14651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 44.45 0)
+			(at 252.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 44.45 0)
+			(at 252.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,8 +14879,84 @@
 		)
 	)
 	(symbol
+		(lib_name "B3F-3152_1")
+		(lib_id "handheld_symbols:B3F-3152")
+		(at 245.11 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdcf0740-5688-4146-bb47-59fca4e1a472")
+		(property "Reference" "SW9"
+			(at 265.176 40.894 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 265.43 43.688 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "handheld:SW_B3F-3150_OMR"
+			(at 246.888 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B3F-3152"
+			(at 246.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aaf031c-86d9-4aeb-8012-e1a3f63fe5b1")
+		)
+		(pin "3"
+			(uuid "adf46869-55c1-4f07-b20e-ff9e30dd788e")
+		)
+		(pin "4"
+			(uuid "9db1b565-7547-4728-a6af-1d33206ce834")
+		)
+		(pin "1"
+			(uuid "6c98a3fc-d00b-4aaa-b4af-156b4b3d3148")
+		)
+		(instances
+			(project "handheld"
+				(path "/16e05bac-8993-4866-b00a-f9cee69cf9c6"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 247.65 35.56 270)
+		(at 247.65 31.75 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14373,7 +14965,7 @@
 		(dnp no)
 		(uuid "fe5f062a-2c45-48e9-8eb8-55fc7f779fa6")
 		(property "Reference" "R19"
-			(at 247.65 29.21 90)
+			(at 247.65 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +14973,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 247.65 31.75 90)
+			(at 247.65 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 247.65 37.338 90)
+			(at 247.65 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 35.56 0)
+			(at 247.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14999,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 35.56 0)
+			(at 247.65 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
